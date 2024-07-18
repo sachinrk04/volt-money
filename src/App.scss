@@ -1,0 +1,40 @@
+.app-container {
+  padding: 20px 20px;
+  background: #ffffff;
+  margin: 20px;
+  border-radius: 2px;
+  .add-task {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .filter-tasks {
+    background: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
+    .add-task-button {
+      width: 100px;
+      font-size: 14px;
+      padding: 4px 5px;
+      background: white;
+      color: black;
+      font-weight: 700;
+      border: none;
+      border-radius: 2px;
+      margin-right: 10px;
+    }
+  }
+  .no-task {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+  }
+}

@@ -1,0 +1,97 @@
+.task-list__item {
+  margin-bottom: 8px;
+  .task-list__item__edit {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+  .task-list__item__view {
+    border-radius: 4px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
+    .task-list__item__header {
+      background: #f1f3f6;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      border-radius: 2px 2px 0px 0px;
+      .task-list__item__title {
+        padding: 6px 10px;
+        margin: 0;
+        font-size: 16px;
+        margin-bottom: 4px;
+      }
+      .task-list__item__action {
+        display: flex;
+        align-items: center;
+        .task-list__item__status {
+          margin-right: 20px;
+          display: flex;
+          .task-status {
+            margin: 0;
+            font-size: 12px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            span {
+              font-weight: 400;
+              font-size: 12px;
+              padding: 2px 6px;
+              border-radius: 4px;
+              background: lightblue;
+              cursor: pointer;
+            }
+            .update {
+              background: white;
+              margin-right: 4px;
+              cursor: pointer;
+            }
+            .close {
+              background: white;
+              margin-right: 4px;
+              cursor: pointer;
+            }
+          }
+          .task-priority {
+            margin: 0;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            span {
+              font-weight: 400;
+              font-size: 12px;
+              background: lightcoral;
+              padding: 2px 6px;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            .update {
+              background: white;
+              margin-right: 4px;
+              cursor: pointer;
+            }
+            .close {
+              background: white;
+              margin-right: 4px;
+              cursor: pointer;
+            }
+          }
+        }
+        .edit-task {
+          margin-right: 10px;
+        }
+        .delete-task {
+          margin-right: 10px;
+          color: red;
+        }
+      }
+    }
+    .task-list__item__description {
+      border-radius: 0px 0px 2px 2px;
+      background: white;
+      padding: 5px 10px;
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+}
